@@ -1,0 +1,10 @@
+[binds]
+q = 
+n = next
+<Shift+N> = prev
+# Removing default keybindings to zoom in/out
+# i = 
+o = 
+
+u = zoom 3
+i = zoom -3
