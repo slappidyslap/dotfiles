@@ -1,0 +1,11 @@
+// Meta config file specifically for Dank Material Shell
+include "default.kdl"
+include "dms/colors.kdl"
+include "dms/layout.kdl"
+include "dms/alttab.kdl"
+include "dms/binds.kdl"
+include "dms/outputs.kdl"
+include "dms/cursor.kdl"
+include "dms/windowrules.kdl"
+include "dms/input.kdl"
+
