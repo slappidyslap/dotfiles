@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Recent installed packages
+
+count="${1:-20}"
+
+expac --timefmt='%Y-%m-%d %T' '%l\t%n %w' | grep 'explicit$' | sort | tail -n "$count" | awk '{print $1" "$2"\t"$3}' | nl
+

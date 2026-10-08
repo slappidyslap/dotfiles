@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Recent installed packages
+
+count="${1:-100}"
+
+expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -n "$count" | nl

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+(( $# )) || { echo "usage: bak PATH..." >&2; exit 1; }
+
+ts=$(date +%Y%m%d-%H%M%S)
+
+for src in "${@%/}"; do
+  cp -a -- "$src" "$src.bak-$ts"
+  echo "$src.bak-$ts"
+done
