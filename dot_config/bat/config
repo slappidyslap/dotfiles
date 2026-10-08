@@ -1,0 +1,5 @@
+# --theme="base16-256"
+--style="numbers,changes"
+
+--map-syntax "*.ino:C++"
+
