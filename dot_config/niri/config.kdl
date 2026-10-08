@@ -1,3 +1,20 @@
-// spawn-sh-at-startup "echo no desktop shell was chosen btw"
+// Default niri config: https://github.com/niri-wm/niri/blob/main/resources/default-config.kdl
+environment {
+  XDG_CURRENT_DESKTOP "niri"
+  TERMINAL "kitty -1"
+  ALT_TERMINAL "alacritty"
+  FILE_MANAGER "kitty -1 -e yazi"
+  ALT_FILE_MANAGER "nautilus"
+  BROWSER "zen-browser"
+}
+
+
+include "input.kdl"
+include "layout.kdl"
+include "colors.kdl"
+include "binds.kdl"
+include "workspaces.kdl"
+include "window-rules.kdl"
+include "animations.kdl"
 include "noctalia.kdl"
-include "default.kdl"
+include "misc.kdl"

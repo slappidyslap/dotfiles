@@ -1,0 +1,30 @@
+prefer-no-csd
+
+layout {
+    gaps 8
+
+    focus-ring {
+        width 2
+    }
+
+    background-color "transparent"
+
+    shadow {
+      off
+    }
+
+    tab-indicator {
+      on
+      corner-radius 8
+    }
+
+    preset-column-widths {
+        proportion 0.36
+        proportion 0.5
+        proportion 0.64
+    }
+    default-column-width { proportion 0.5; }
+
+    always-center-single-column
+}
+

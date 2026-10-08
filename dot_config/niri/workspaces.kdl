@@ -1,0 +1,37 @@
+workspace "music"
+workspace "messaging"
+workspace "dev"
+workspace "browser"
+workspace "misc"
+
+// window-rule {
+//     match app-id="spotify"
+//     match app-id="ncspot"
+//     open-on-workspace "music"
+// }
+//
+// window-rule {
+//     match app-id="telegram-desktop"
+//     match app-id="discord"
+//     match app-id="serein"
+//     open-on-workspace "messaging"
+// }
+//
+// window-rule {
+//     match app-id="idea"
+//     match app-id="zed"
+//     open-on-workspace "dev"
+// }
+//
+// window-rule {
+//     match app-id="firefox"
+//     match app-id="zen-browser"
+//     match app-id="librewolf"
+//     match app-id="helium"
+//     open-on-workspace "browser"
+// }
+//
+// window-rule {
+//
+//     open-on-workspace "misc"
+// }
