@@ -102,7 +102,6 @@ binds {
     Mod+Period       { expel-window-from-column; }
 
     // Screenshots
-    Mod+Shift+S { screenshot; }
     Print       { screenshot; }
     XF86Launch1 { screenshot; }
 
