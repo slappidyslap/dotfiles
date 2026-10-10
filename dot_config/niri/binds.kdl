@@ -5,6 +5,7 @@ binds {
     Mod+E hotkey-overlay-title="Open File Manager" { spawn-sh "$FILE_MANAGER"; }
     Mod+Shift+E hotkey-overlay-title="Open Alternative File Manager" { spawn-sh "$ALT_FILE_MANAGER"; }
     Mod+B hotkey-overlay-title="Open Browser" { spawn-sh "$BROWSER"; }
+    // Mod+Alt+L { spawn "swaylock"; }
 
     // Window Management
     Mod+Q repeat=false { close-window; }

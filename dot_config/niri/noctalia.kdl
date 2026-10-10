@@ -1,6 +1,8 @@
 spawn-at-startup "noctalia"
 
 binds {
+    Mod+Alt+L { spawn-sh "noctalia msg session lock"; }
+    Ctrl+Alt+Delete { spawn-sh "noctalia msg panel-toggle session"; }
     // Mod+Shift+S { spawn-sh "/home/eld/Extras/noctalia/build-release/noctalia msg screenshot-window"; }
     Mod+Shift+S { spawn-sh "noctalia msg screenshot-annotate"; }
     Mod+Space { spawn-sh "noctalia msg panel-toggle launcher"; }

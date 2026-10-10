@@ -1,4 +1,5 @@
 // Default niri config: https://github.com/niri-wm/niri/blob/main/resources/default-config.kdl
+// spawn-sh-at-startup "swaybg -i ~/Pictures/wallhaven-pomle9.jpg"
 environment {
   XDG_CURRENT_DESKTOP "niri"
   TERMINAL "kitty -1"
@@ -9,12 +10,13 @@ environment {
 }
 
 
+include "noctalia.kdl"
+
 include "input.kdl"
 include "layout.kdl"
 include "colors.kdl"
 include "binds.kdl"
 include "workspaces.kdl"
 include "window-rules.kdl"
-include "animations.kdl"
-include "noctalia.kdl"
+include "animations/glide.kdl"
 include "misc.kdl"
