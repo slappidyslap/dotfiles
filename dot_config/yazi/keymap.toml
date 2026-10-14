@@ -2,3 +2,8 @@
 on   = "o"
 run  = "plugin smart-enter"
 desc = "Enter the child directory, or open the file"
+
+[[mgr.prepend_keymap]]
+on   = ["g", "l"]
+run  = "cd ~/.local/share"
+desc = "Go to ~/.local/share"
