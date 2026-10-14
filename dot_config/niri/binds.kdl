@@ -9,6 +9,8 @@ binds {
 
     // Window Management
     Mod+Q repeat=false { close-window; }
+    Mod+Shift+Q repeat=false { spawn-sh "kill $(niri msg --json focused-window | jq '.pid')"; }
+    Alt+F4 repeat=false { spawn-sh "kill $(niri msg --json focused-window | jq '.pid')"; }
     Mod+O repeat=false { toggle-overview; }
     Mod+Tab repeat=false { toggle-overview; }
     Mod+T { toggle-window-floating; }
