@@ -28,6 +28,7 @@ alias l.="eza -a | grep -e '^\.'"
 alias cm="chezmoi"
 
 alias lvim="NVIM_APPNAME=lvim nvim"
+alias cvim="NVIM_APPNAME=cvim nvim"
 
 # Path env var
 
