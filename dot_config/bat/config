@@ -1,4 +1,4 @@
-# --theme="base16-256"
+--theme="ansi"
 --style="numbers,changes"
 
 --map-syntax "*.ino:C++"
