@@ -2,6 +2,7 @@
 // spawn-sh-at-startup "swaybg -i ~/Pictures/wallhaven-pomle9.jpg"
 environment {
   XDG_CURRENT_DESKTOP "niri"
+  QT_QPA_PLATFORMTHEME "xdgdesktopportal"
   TERMINAL "kitty -1"
   ALT_TERMINAL "alacritty"
   FILE_MANAGER "kitty -1 -e yazi"
