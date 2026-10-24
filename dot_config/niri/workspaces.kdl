@@ -41,7 +41,7 @@ window-rule {
     // match app-id="firefox"
     // match app-id="librewolf"
     match app-id="zen"
-    // match app-id="helium"
+    match app-id="helium"
     match app-id=r#"Thunderbird"#
     match app-id="Obsidian"
     open-on-workspace "browser"
