@@ -2,22 +2,10 @@ layout {
     focus-ring {
         active-gradient from="#ffc107" to="#FF8607" angle=45 relative-to="workspace-view"
         inactive-color "#998f80"
-        urgent-color   "#FF8607"
-    }
-
-    border {
-        active-color   "#ffc107"
-        inactive-color "#998f80"
-        urgent-color   "#FF8607"
     }
 
     tab-indicator {
-        active-color   "#ffc107"
+        active-color   "#F36223"
         inactive-color "#998f80"
-        urgent-color   "#FF8607"
-    }
-
-    insert-hint {
-        color "#ffc10780"
     }
 }

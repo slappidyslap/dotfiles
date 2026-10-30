@@ -10,12 +10,14 @@ layout {
     background-color "transparent"
 
     shadow {
-      off
+        off
     }
 
     tab-indicator {
-      on
-      corner-radius 8
+        on
+        gap 3
+        width 3
+        corner-radius 8
     }
 
     preset-column-widths {

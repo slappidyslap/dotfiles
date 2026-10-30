@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo -e "\033[1;36Updating system packages and AUR packages\033[0m"
+paru -Syu
+
+echo -e "\n\033[1;36mUpdating flatpak packages\033[0m"
+flatpak update -y
+
+echo -e "\n\033[1;36mUpdating global pnpm packages\033[0m"
+pnpm update -g --latest
+
+echo -e "\n\033[1;36mUpdating fish shell plugins\033[0m"
+fish -c "fisher update"
+
+echo -e "\n\033[1;36mUpdating nvim plugins\033[0m"
+nvim --headless -c "lua vim.pack.update()" -c "qa"
+
